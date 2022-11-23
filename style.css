@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-color: #19A1AE;
+    background-position: right 50vw bottom 45vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    min-height: 100vh;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.card {
+    position: relative;
+    margin: 0 auto;
+    width: 350px;
+    height: 374px;
+    overflow: hidden;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+
+
+}
+
+.img {
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.user-image img {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 50%;
+    right: 36%;
+}
+
+/* .second-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.text-area {
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.user-name {
+    font-weight: 700;
+    margin-right: 8.5px;
+
+    color: #2E3349;
+}
+
+.user-age {
+    font-weight: 400;
+    color: #6B7082;
+}
+
+.text-city {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    position: relative;
+
+}
+
+.user-loc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+}
+
+.text-city::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 36px;
+    background: #E8E9EC;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.text {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+
+
+}
+
+/* @media only screen and (min-width: 1300px) {} */
